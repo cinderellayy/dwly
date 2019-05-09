@@ -1,0 +1,134 @@
+
+/* login1 */
+.left-volume{
+    width:45px;
+    height:45px;
+    margin-left:2%;
+    margin-top:2%;
+    float:left;
+    display: block;
+    /* border: 1px solid #fff; */
+}
+.right-set{
+    width:45px;
+    height:45px;
+    margin-right:2%;
+    margin-top:2%;
+    float:right;
+    /* border: 1px solid #fff; */
+}
+.go-home {
+    width:45px;
+    height:45px;
+    margin-right:2%;
+    margin-top:2%;
+    float:right;
+    display: block;
+    /* border: 1px solid #fff;  */
+}
+.into{
+    width: 150px;
+    height: 120px;
+    margin: 31% auto 0 auto;
+    /* border: 1px solid #fff; */
+    display: block;
+}
+.suanshu {
+    width: 150px;
+    height: 120px;
+    left: 28%;
+    top: 13%;
+    /* border: 1px solid #fff; */
+    display: block;
+    position: absolute;
+}
+
+.yinyue {
+    width: 150px;
+    height: 120px;
+    right: 16%;
+    top: 13%;
+    /* border: 1px solid #fff; */
+    display: block;
+    position: absolute;
+}
+
+.chengyu {
+    width: 150px;
+    height: 120px;
+    left: 4%;
+    top: 30%;
+    /* border: 1px solid #fff; */
+    display: block;
+    position: absolute;
+}
+
+.shizi {
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    left: 41%;
+    top:49%;
+    /* border: 1px solid #fff; */
+    display: block;
+}
+.yingyu {
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    right:9%;
+    top:49%;
+    /* border: 1px solid #fff; */
+    display: block;
+}
+.yinyue-audio {
+    position: absolute;
+    top: 24%;
+    height: 150px;
+    left: 50%;
+    width: 150px;
+    margin-left: -75px;
+    /* border: 1px solid #fff;  */
+}
+.chengyu-audio {
+    position: absolute;
+    top: 36%;
+    height: 160px;
+    left: 54%;
+    width: 220px;
+    margin-left: -75px;
+    /* border: 1px solid #fff;  */
+}
+.shiziOne {
+    position: absolute;
+    right: 26%;
+    top: 30%;
+    width: 170px;
+    height: 140px;
+    /* border: 1px solid #fff; */
+    display: block;
+}
+.to-detail{
+    position: absolute;
+    left: 13%;
+    top: 11%;
+}
+.to-detail a {
+    width: 180px;
+    height: 70px;
+    margin-top:20px;
+    /* border: 1px solid #fff; */
+    display: block;
+}
+.to-detail-suanshu{
+    position: absolute;
+    right: 21%;
+    top: 11%;
+}
+.to-detail-suanshu a {
+    width: 200px;
+    height: 70px;
+    margin-top:20px;
+    /* border: 1px solid #fff; */
+    display: block;
+}

@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <title>动物乐园</title>
+    <style>
+        .login1 {
+            background: url(./imgs/6-3.jpg);
+            background-size: 100% 100%;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body class="login1">
+    <div class="left-volume"></div>
+    <a class="left-volume" href="./yinyueOne.html"></a>
+    <div class="right-set"></div>
+    <a class="right-set" href="./yinyueOne.html"></a>
+    <a class="right-set" href="./yinyueThree.html"></a>
+    <div class="yinyue-audio" onclick="play()">
+        <audio src="./刷牙歌.mp3" type="audio/mp3" autoplay="autoplay" id="music">
+        </audio>
+    </div>
+</body>
+<script>
+    function play() {
+        var audios = document.getElementById("music");
+        if (audios.paused) {
+            audios.play();
+        } else {
+            audios.pause();
+        }
+    }
+</script>
+</html>
