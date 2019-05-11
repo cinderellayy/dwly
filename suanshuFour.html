@@ -17,6 +17,15 @@
             bottom: 0;
             overflow: hidden;
         }
+
+        .suanshu-detail {
+            position: absolute;
+            right: 15%;
+            width: 55px;
+            height: 55px;
+            bottom: 39%;
+            /* border: 1px solid #fff; */
+        }
     </style>
 </head>
 
@@ -24,9 +33,14 @@
     <div class="left-volume"></div>
     <a class="left-volume" href="./suanshuThree.html"></a>
     <div class="right-set"></div>
-    <a class="right-set"  href="./suanshuOne.html"></a>
+    <a class="right-set" href="./suanshuOne.html"></a>
     <a class="right-set" href="./suanshuFour.html"></a>
-
+    <div class="suanshu-detail" onclick="change()"></div>
 </body>
+<script>
+    function change() {
+        document.body.style.backgroundImage = "url(./imgs/3-4-1.jpg)";
+    }
+</script>
 
 </html>

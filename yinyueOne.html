@@ -17,18 +17,60 @@
             bottom: 0;
             overflow: hidden;
         }
+
+        .s {
+            position: absolute;
+            bottom: 27%;
+            right: 20%;
+            height: 33px;
+            width: 33px;
+            /* border: 1px solid #fff; */
+        }
+
+        .z {
+            position: absolute;
+            bottom: 15%;
+            right: 20%;
+            height: 33px;
+            width: 33px;
+            /* border: 1px solid #fff; */
+        }
+
+        .y {
+            position: absolute;
+            bottom: 15%;
+            right: 27%;
+            height: 33px;
+            width: 33px;
+            /* border: 1px solid #fff; */
+        }
     </style>
 </head>
 
 <body class="login1">
     <div class="left-volume"></div>
     <div class="right-set"></div>
-    <a class="go-home"  href="./yinyue.html"></a>
-   <div class="to-detail">
-    <a href="./yinyueTwo.html" class="to-two"></a>
-    <a href="./yinyueThree.html" class="to-three"></a>
-    <a href="./yinyueFour.html" class="to-four"></a>
-   </div>
+    <a class="go-home" href="./yinyue.html"></a>
+    <div class="to-detail">
+        <a href="./yinyueTwo.html" class="to-two"></a>
+        <a href="./yinyueThree.html" class="to-three"></a>
+        <a href="./yinyueFour.html" class="to-four"></a>
+    </div>
+    <div class="s" onclick="setStyle('s')"></div>
+    <div class="y" onclick="setStyle('y')"></div>
+    <div class="z" onclick="setStyle('z')"></div>
 </body>
+<script>
+    function setStyle(param) {
+        if (param == 's') {
+            document.body.style.backgroundImage = "url(./imgs/6-1.jpg)";
+        } else if (param == 'y') {
+            document.body.style.backgroundImage = "url(./imgs/6-1-1.jpg)";
+        } else if (param == 'z') {
+            document.body.style.backgroundImage = "url(./imgs/6-1-2.jpg)";
+        }
+
+    }
+</script>
 
 </html>

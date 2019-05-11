@@ -17,6 +17,31 @@
             bottom: 0;
             overflow: hidden;
         }
+        .h {
+            position: absolute;
+            bottom: 40%;
+            right: 44%;
+            height: 33px;
+            width: 33px;
+            /* border: 1px solid #fff; */
+        }
+
+        .s {
+            position: absolute;
+            bottom: 27%;
+            right: 19%;
+            height: 33px;
+            width: 33px;
+            /* border: 1px solid #fff; */
+        }
+        .w {
+            position: absolute;
+            bottom: 15%;
+            right: 38%;
+            height: 33px;
+            width: 33px;
+            /* border: 1px solid #fff; */
+        }
     </style>
 </head>
 
@@ -29,6 +54,21 @@
     <a href="./chengyuThree.html" class="to-three"></a>
     <a href="./chengyuFour.html" class="to-four"></a>
    </div>
+   <div class="s" onclick="setStyle('s')"></div>
+   <div class="w" onclick="setStyle('w')"></div>
+   <div class="h" onclick="setStyle('h')"></div>
 </body>
+<script>
+   function setStyle(param) {
+       if (param == 's') {
+           document.body.style.backgroundImage = "url(./imgs/4-1-1.jpg)";
+       } else if (param == 'w') {
+           document.body.style.backgroundImage = "url(./imgs/4-1-2.jpg)";
+       } else if (param == 'h') {
+           document.body.style.backgroundImage = "url(./imgs/4-1.jpg)";
+       }
+
+   }
+</script>
 
 </html>

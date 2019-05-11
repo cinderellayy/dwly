@@ -21,7 +21,7 @@
 </head>
 
 <body class="login1">
-    <div class="left-volume"></div>
+    <div class="left-volume" onclick="play()"></div>
     <a class="left-volume" href="./yinyueOne.html"></a>
     <div class="right-set"></div>
     <a class="right-set" href="./yinyueOne.html"></a>
@@ -36,8 +36,10 @@
         var audios = document.getElementById("music");
         if (audios.paused) {
             audios.play();
+            document.body.style.backgroundImage = "url(./imgs/14.jpg)";
         } else {
             audios.pause();
+            document.body.style.backgroundImage = "url(./imgs/6-3.jpg)";
         }
     }
 </script>

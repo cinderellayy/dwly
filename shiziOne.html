@@ -17,7 +17,31 @@
             bottom: 0;
             overflow: hidden;
         }
-       
+        .j {
+            position: absolute;
+            bottom: 39%;
+            right: 32%;
+            height: 33px;
+            width: 33px;
+            /* border: 1px solid #fff; */
+        }
+
+        .e {
+            position: absolute;
+            bottom: 51%;
+            right: 19%;
+            height: 33px;
+            width: 33px;
+            /* border: 1px solid #fff; */
+        }
+        .x {
+            position: absolute;
+            bottom: 15%;
+            right: 32%;
+            height: 33px;
+            width: 33px;
+            /* border: 1px solid #fff; */
+        }
     </style>
 </head>
 
@@ -30,6 +54,21 @@
     <a href="./shiziThree.html" class="to-three"></a>
     <a href="./shiziFour.html" class="to-four"></a>
    </div>
+   <div class="e" onclick="setStyle('e')"></div>
+   <div class="x" onclick="setStyle('x')"></div>
+   <div class="j" onclick="setStyle('j')"></div>
 </body>
+<script>
+   function setStyle(param) {
+       if (param == 'e') {
+           document.body.style.backgroundImage = "url(./imgs/5-1.jpg)";
+       } else if (param == 'x') {
+           document.body.style.backgroundImage = "url(./imgs/5-1-2.jpg)";
+       } else if (param == 'j') {
+           document.body.style.backgroundImage = "url(./imgs/5-1-1.jpg)";
+       }
+
+   }
+</script>
 
 </html>
